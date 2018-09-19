@@ -65,7 +65,7 @@ colnames(edata) <-  c("NRC","NRC","NRC","NRC","RC","NRC","RC",
                     
 cnames <- colnames(edata) 
 
-#Analysis of DEG's using limma
+#Analysis of DEG's using limma ("differentially expresssed genes")
 
 designmatrix <- model.matrix(~0 + factor(cnames))
 
